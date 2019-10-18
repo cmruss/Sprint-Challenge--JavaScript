@@ -113,13 +113,13 @@ console.log(contactInfo);
 // const unisWithUni = universities.filter(function(str) {
 //   return universities.includes(str);
 // });
-// console.log(unisWithUni);
 
 const unisWithUni = [];
 for (var i = 0; i < graduates.length; i++) {
     if (graduates[i].university.includes("Uni"))
         unisWithUni.push(graduates[i].university);
 };
+console.log(unisWithUni);
 
 
 // ==== ADVANCED Array Methods ====
